@@ -17,18 +17,60 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-dark">
+<!--nav -->
+<nav class="navbar navbar-expand-md bg-dark navbar-light fixed-top">
+
+    <a href="#" class="navbar-brand"><i class="fas fa-gamepad text-warning fa-2x"></i></a>
+
     <ul class="navbar-nav">
 
-        <a href="#" class="navbar-brand"><i class="fas fa-gamepad text-warning fa-2x"></i></a>
 
-        <li class="nav-item"><a class="nav-link text-center" href="#">Home</a> </li>
-        <li class="nav-item"><a class="nav-link" href="#">Skills</a> </li>
-        <li class="nav-item"><a class="nav-link" href="#">Projects</a> </li>
-        <li class="nav-item"><a class="nav-link" href="#">Team</a> </li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a> </li>
+
+        <li class="nav-item"><a class="nav-link text-light px-3" href="#">Home</a> </li>
+        <li class="nav-item"><a class="nav-link text-light px-3" href="#">Skills</a> </li>
+        <li class="nav-item dropdown" ><a class="nav-link text-light px-3" data-toggle="dropdown" href="#">Projects</a>
+            <div class="dropdown-menu">
+                <a href="" class="dropdown-item">Project 1</a>
+                <a href="" class="dropdown-item">Project 2</a>
+                <a href="" class="dropdown-item">Project 3</a>
+                <a href="" class="dropdown-item">Project 4</a>
+            </div>
+        </li>
+        <li class="nav-item"><a class="nav-link text-light px-3" href="#">Team</a> </li>
+        <li class="nav-item"><a class="nav-link text-light px-3" href="#">Contact</a> </li>
     </ul>
+
+    <form class="form-inline">
+        <div class="input-group">
+            <input type="text" placeholder="Search" class="form-control">
+            <div class="input-group-append"></div>
+            <div>
+                <button type="button" class="btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </form>
+
 </nav>
+
+<!-- end nav -->
+
+<!-- banner -->
+
+<section>
+    <div class="container-fluid">
+        <div class="row bg-info align-items-center justify-content-center" style="height: 100vh" >
+            <div class="col-sm-10 text-center ">
+                <h1 class="display-2 text-capitalize"><span>Pure Bootstrap</span> <span>Website</span></h1>
+                <h2 class="text-light font-italic font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <a href="#" class="btn btn-outline-warning mt-3">Press Here</a>
+                <a href="#" class="btn btn-outline-warning mt-3">Press Here</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- end of banner -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
